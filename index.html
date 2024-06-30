@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- This is for navbar -->
+    
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <!-- Home section -->
+      <section id="home">
+        <h1>Home Section</h1>
+        <p>
+          Welcome to the home section of this responsive landing page. Explore
+          our site to learn more about what we offer.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwODAwKiUyMDQwMHxlbnwwfHwwfHx8MA%3D%3D"
+          alt="Home Image"
+          style="max-width: 100%; height: auto"
+        />
+      </section>
+      <!-- About section -->
+      <section id="about">
+        <h1>About Section</h1>
+        <p>
+          Learn more about what we do and our mission. We are dedicated to
+          providing the best service to our clients.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tJTIwODAwKiUyMDQwMHxlbnwwfHwwfHx8MA%3D%3D"
+          alt="About Image"
+          style="max-width: 100%; height: auto"
+        />
+        <p>
+          We have been in business for over 10 years, delivering quality and
+          value in every project we undertake. Our team of experts is passionate
+          about what they do, and it shows in the results we achieve.
+        </p>
+      </section>
+      <!-- Services Section -->
+      <section id="services">
+        <h1>Services Section</h1>
+        <p>
+          Discover the services we offer to our clients. We provide a wide range
+          of solutions tailored to meet your needs.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwODAwKiUyMDQwMHxlbnwwfHwwfHx8MA%3D%3D"
+          alt="Services Image"
+          style="max-width: 100%; height: auto"
+        />
+        <ul>
+          <li>Service 1: Description of service 1.</li>
+          <li>Service 2: Description of service 2.</li>
+          <li>Service 3: Description of service 3.</li>
+          <li>Service 4: Description of service 4.</li>
+        </ul>
+      </section>
+
+<!-- Contact Section -->
+ <section id="contact">
+<section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title">Get in Touch</h2>
+    <p class="contact-description">
+      Fill out the form below and we'll get back to you as soon as possible.
+    </p>
+  </div>
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="3cd27a46-b830-426a-b2ea-57c2d80e8a45" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Prodigy" />
+    <input type="hidden" name="from_name" value="Contact From Task 01" />
+    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
+
+</section>
+</div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
